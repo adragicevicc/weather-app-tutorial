@@ -23,7 +23,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 input.search-bar {
@@ -35,6 +35,7 @@ input.search-bar {
     color: white;
     font-family: inherit;
     font-size: 100%;
+    width: calc(100% - 100px);
 }
 
 button.search-button {
@@ -57,4 +58,14 @@ button.search-button {
 
 .temp {
     margin: 0;
+    margin-bottom: 10px;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
 }
