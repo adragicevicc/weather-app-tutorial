@@ -7,6 +7,8 @@ body {
     background: #222;
     font-family: 'Open Sans', sans-serif;
     background-image: url('https://source.unsplash.com/random');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card {
@@ -69,3 +71,8 @@ button.search-button {
     display: flex;
     align-items: center;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
